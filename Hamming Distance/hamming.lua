@@ -1,4 +1,5 @@
 --This algorithm checks the difference between two strings of DNA
+--Check out the challenge in: https://exercism.io/my/solutions/e4c81534ca2641a99b18243ad69724f2
 
 firstDNA = "CGAGCCTACTAACGGGAT" --Input DNAs
 secondDNA = "ACATCGTAATGACGGCCT"
