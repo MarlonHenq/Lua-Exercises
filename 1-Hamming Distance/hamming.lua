@@ -29,13 +29,15 @@ function match()
 end
 
 if firstDNA == secondDNA then --Checks if the variables are completely the same to avoid unnecessary processing in case of checking character by character
-    print("Completely the same! Distance = 0 \n")
+    print("Completely the same!")
 
     matchArrow = string.rep("^", firstDNA_size) --Print arrow in all spaces
 
 else
     match()
 end
+
+print("Distance = " .. distance .. " \n")
 
 print(firstDNA)
     	
