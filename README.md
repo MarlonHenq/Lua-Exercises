@@ -1,6 +1,6 @@
 # Lua-Exercises
 
-## English
+## --English
 This is a repository where i will put exercises done in Lua lang.
 
 Most exercises are from the website "https://exercism.io" and they will be distributed each in a directory, containing in each file an explanation of the exercise in the comments or in a "readme.txt" in the same directory.
@@ -30,7 +30,7 @@ lua <filename.lua>
 --On Windows visit "https://github.com/rjpcomputing/luaforwindows/releases", download the latest release and install the ".exe" file
 for execute use a double click on a lua file
 
-## Português
+## --Português
 Este é apenas um repositório onde irei colocar exercícios feitos em Lua lang.
 
 A maioria dos exercícios estão no site "https://exercism.io" e serão distribuídos cada um em um diretório, contendo em cada arquivo uma explicação do exercício nos comentários do código ou em um "readme.txt" no mesmo diretório.
@@ -45,7 +45,7 @@ sudo apt install lua5.3
 ````
 para executar use:
 ````
-lua <filename.lua>
+lua <nome_do_arquivo.lua>
 ````
 
 --No Linux (Fedora)
@@ -54,7 +54,7 @@ dnf install lua
 ````
 para executar use:
 ````
-lua <filename.lua>
+lua <nome_do_arquivo.lua>
 ````
 
 --No Windows visite "https://github.com/rjpcomputing/luaforwindows/releases", baixe a ultima 'release' e instale o arquivo ".exe"
