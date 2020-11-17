@@ -7,6 +7,7 @@ Most exercises are from the website "https://exercism.io" and they will be distr
 
 ## How to run the files?
 To run ".lua" files you must install the interpreter on your machine:
+
 To build: https://www.lua.org/download.html
 
 --On Linux (Debian and Ubuntu or based)
@@ -27,16 +28,18 @@ for execute use:
 lua <filename.lua>
 ````
 
---On Windows visit "https://github.com/rjpcomputing/luaforwindows/releases", download the latest release and install the ".exe" file
-for execute use a double click on a lua file
+--On Windows visit "https://github.com/rjpcomputing/luaforwindows/releases", download the latest release and install the ".exe" file.
+
+For execute use a double click on a lua file.
 
 ## --Português
-Este é apenas um repositório onde irei colocar exercícios feitos em Lua lang.
+Este é apenas um repositório onde irei colocar exercícios feitos em Lua.
 
 A maioria dos exercícios estão no site "https://exercism.io" e serão distribuídos cada um em um diretório, contendo em cada arquivo uma explicação do exercício nos comentários do código ou em um "readme.txt" no mesmo diretório.
 
 ## Como rodar os arquivos?
 Para executar arquivos ".lua" você deve instalar o interpretador em sua máquina:
+
 Para 'bildar: https://www.lua.org/download.html
 
 --No Linux (Debian and Ubuntu ou baseado)
@@ -57,5 +60,6 @@ para executar use:
 lua <nome_do_arquivo.lua>
 ````
 
---No Windows visite "https://github.com/rjpcomputing/luaforwindows/releases", baixe a ultima 'release' e instale o arquivo ".exe"
-para executar, clique duas vezes em um arquivo lua.
+--No Windows visite "https://github.com/rjpcomputing/luaforwindows/releases", baixe a ultima 'release' e instale o arquivo ".exe".
+
+Para executar, clique duas vezes em um arquivo lua.
