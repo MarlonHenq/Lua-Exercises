@@ -50,4 +50,4 @@ while number_of_zeros >= count do
     count = count + 1
 end
 
-print(tonumber(result) .. ohms)
+print(tonumber(result) .. "ohms")
