@@ -4,48 +4,46 @@
 colors = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"}
 
 inputs = {}
-count = 0
-count_inputs = 1
+count_inputs = 0
 result = ""
-true_or_false = true
 
 print("Type the colors of your resistor (separating them by enter) in ascending order without adding the tolerance color \n")
 print("Colors: black, brown, red, orange, yellow, green, blue, violet, grey, white")
 
 function verify(color)
     number = 0
-    true_or_false = true
-    while true_or_false do
+    while true do
         if color == colors[number] then
-            true_or_false = false
+            break
         else 
             number = number + 1
         end
     end
-
+    number = number - 1
     return number
 end
 
 input = io.read()
-while true_or_false do
+while true do
     if input == "" then
-        true_or_false = false
+        break
     else
-        inputs[count] = input
+        inputs[count_inputs] = input
         count_inputs = count_inputs + 1
+
         input = io.read()
     end
 end
 
-array_size = count_inputs
+array_size = count_inputs - 1
 
 count = 0
-while count < count_inputs do
+while count < array_size do
     result = result .. verify(inputs[count])
     count = count + 1
 end
 
-number_of_zeros = verify(inputs[count_inputs])
+number_of_zeros = verify(inputs[array_size])
 
 count = 0
 while number_of_zeros >= count do
