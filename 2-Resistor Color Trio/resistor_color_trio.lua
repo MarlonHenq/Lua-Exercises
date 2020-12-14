@@ -11,7 +11,7 @@ print("Type the colors of your resistor (separating them by enter) in ascending 
 print("Colors: black, brown, red, orange, yellow, green, blue, violet, grey, white")
 
 function verify(color)
-    number = 0
+    number = -1
     while true do
         if color == colors[number] then
             break
@@ -19,7 +19,6 @@ function verify(color)
             number = number + 1
         end
     end
-    number = number - 1
     return number
 end
 
@@ -51,4 +50,4 @@ while number_of_zeros >= count do
     count = count + 1
 end
 
-print(tonumber(result))
+print(tonumber(result) .. ohms)
