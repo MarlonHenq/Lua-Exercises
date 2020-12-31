@@ -44,7 +44,7 @@ Para 'bildar: https://www.lua.org/download.html
 
 --No Linux (Debian and Ubuntu ou baseado)
 ````
-sudo apt install lua5.3
+sudo apt-get install lua5.3
 ````
 para executar use:
 ````
